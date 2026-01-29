@@ -1,8 +1,12 @@
+<div align="center">
+  
 ## Issue2Idea 😈➡️💡
 
 从「一堆吵吵闹闹的 GitHub Issues」中，自动提炼出**清晰、有优先级的产品需求文档**。  
 
-`demandlens` 是一个为「产品经理 / 创始人 / 独立开发者」打造的命令行小工具：  
+</div>
+
+`Issue2Idea` 是一个为「产品经理 / 创始人 / 独立开发者」打造的命令行小工具：  
 
 - 你给它一个 GitHub 仓库地址  
 - 它自动拉取最近的 Issues（含 title / body / comments）  
@@ -47,14 +51,14 @@ pip install -e .
 未来如果发布到 PyPI，可以直接：
 
 ```bash
-pip install demandlens
+pip install Issue2Idea
 ```
 
 ---
 
 ## 环境变量配置 🔑
 
-`demandlens` 需要两个关键配置：
+`Issue2Idea` 需要两个关键配置：
 
 - **GitHub 访问令牌（可选但强烈推荐）**
   - 作用：提高 GitHub API 访问频率限制 & 访问私有仓库
@@ -85,7 +89,7 @@ OPENAI_API_KEY=sk-xxx
 最常见的调用方式：
 
 ```bash
-demandlens https://github.com/owner/repo --max-issues 200 --output requirements.md
+Issue2Idea https://github.com/owner/repo --max-issues 200 --output requirements.md
 ```
 
 **参数说明：**
@@ -168,8 +172,8 @@ demandlens https://github.com/owner/repo --max-issues 200 --output requirements.
 ### 整体目录
 
 ```text
-demandlens/
-├── demandlens/
+Issue2Idea/
+├── Issue2Idea/
 │   ├── __init__.py
 │   ├── github_client.py     # GitHub API 封装
 │   ├── issue_parser.py      # Issue 清洗与格式化
@@ -491,5 +495,6 @@ pip install -e ".[dev]"
 ## 许可协议 📜
 
 本项目基于 **MIT License** 开源，你可以在商用 / 个人项目中自由使用（保留版权声明即可）。
+
 
 
