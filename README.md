@@ -490,11 +490,18 @@ pip install -e ".[dev]"
 
 欢迎通过 Issue / PR 的方式参与，一起把「Issue 混沌」变成「Roadmap 清晰」💡
 
+--- 
+
+## 👤 作者 (Author)
+
+**Haoze Zheng**
+
+*   🎓 **School**: Xinjiang University (XJU)
+*   📧 **Email**: zhenghaoze@stu.xju.edu.cn
+*   🐱 **GitHub**: [mire403](https://github.com/mire403)
+
 ---
 
-## 许可协议 📜
-
-本项目基于 **MIT License** 开源，你可以在商用 / 个人项目中自由使用（保留版权声明即可）。
-
-
-
+<div align="center">
+  <sub>Made by Haoze Zheng. 2026 Issue2Idea.</sub>
+</div>
