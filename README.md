@@ -1,6 +1,6 @@
 <div align="center">
   
-## Issue2Idea 😈➡️💡
+# Issue2Idea 😈➡️💡
 
 从「一堆吵吵闹闹的 GitHub Issues」中，自动提炼出**清晰、有优先级的产品需求文档**。  
 
@@ -505,3 +505,4 @@ pip install -e ".[dev]"
 <div align="center">
   <sub>Made by Haoze Zheng. 2026 Issue2Idea.</sub>
 </div>
+
