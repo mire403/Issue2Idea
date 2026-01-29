@@ -1,4 +1,4 @@
-## Issue2Idea / demandlens 😈➡️💡
+## Issue2Idea 😈➡️💡
 
 从「一堆吵吵闹闹的 GitHub Issues」中，自动提炼出**清晰、有优先级的产品需求文档**。  
 
@@ -491,4 +491,5 @@ pip install -e ".[dev]"
 ## 许可协议 📜
 
 本项目基于 **MIT License** 开源，你可以在商用 / 个人项目中自由使用（保留版权声明即可）。
+
 
