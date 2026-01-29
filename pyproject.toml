@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "demandlens"
+version = "0.1.0"
+description = "CLI tool to extract real user demands from GitHub Issues using LLMs."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [
+    { name = "Issue2Idea Maintainers" }
+]
+dependencies = [
+    "requests>=2.31.0",
+    "tqdm>=4.66.0",
+    "openai>=1.6.0",
+    "python-dotenv>=1.0.0",
+]
+
+[project.scripts]
+demandlens = "demandlens.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/yourname/Issue2Idea"
+Repository = "https://github.com/yourname/Issue2Idea"
+
