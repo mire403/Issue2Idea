@@ -505,10 +505,3 @@ pip install -e ".[dev]"
 <div align="center">
   <sub>Made by Haoze Zheng. 2026 Issue2Idea.</sub>
 </div>
-
-
-
-
-
-
-
