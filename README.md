@@ -492,7 +492,7 @@ pip install -e ".[dev]"
 
 --- 
 
-## 👤 
+## 👤 作者 (Author)
 
 **Haoze Zheng**
 
@@ -505,6 +505,7 @@ pip install -e ".[dev]"
 <div align="center">
   <sub>Made by Haoze Zheng. 2026 Issue2Idea.</sub>
 </div>
+
 
 
 
